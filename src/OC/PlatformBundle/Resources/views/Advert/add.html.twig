@@ -1,6 +1,10 @@
-{% extends "OCPlatformBundle::layout.html.twig" %}
+{% extends "OCCoreBundle::layout.html.twig" %}
 
-{% block body %}
+{% block title %}
+    Ajouter une annonce
+{% endblock %}
+
+{% block occore_body %}
 
     <h2>Ajouter une annonce</h2>
 
@@ -9,6 +13,12 @@
     <p>
         Attention : cette annonce sera ajoutée directement
         sur la page d'accueil après validation du formulaire.
+    </p>
+
+    <p>
+
+            Publier l'annonce
+
     </p>
 
 {% endblock %}
